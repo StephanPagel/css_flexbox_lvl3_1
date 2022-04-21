@@ -1,0 +1,72 @@
+/* ====================
+        GENERAL
+==================== */
+
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+html {
+    font-size: 62.5%;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* ====================
+        HEADER
+==================== */
+
+header {
+    height: 76px;
+    font-family: 'Raleway', sans-serif;
+    border-bottom: 1px solid #666;
+    border-bottom: 1px solid #666;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-self: center;
+}
+
+header nav>a {
+    align-self: center;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: #666;
+    margin: 20px 0 20px 10vw;
+}
+
+header nav>a:hover {
+    color: #333;
+}
+
+header nav ul {
+    display: flex;
+    width: 60%;
+    justify-content: space-evenly;
+    margin-right: 5vw;
+}
+
+header nav ul li {
+    list-style: none;
+    align-self: center;
+    font-size: 1.5rem;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+header nav ul li a:hover {
+    color: #337ab7;
+}
+
+/* ====================
+        HERO SECTION
+==================== */
+
+main>section {}
